@@ -1,0 +1,6 @@
+framework module SRFormValidator {
+  umbrella header "SRFormValidator-umbrella.h"
+
+  export *
+  module * { export * }
+}

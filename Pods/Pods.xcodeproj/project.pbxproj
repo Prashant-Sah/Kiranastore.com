@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05F989B1407241059EDEC113DEC6E1F7 /* Pods-online-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EACB7A1C409E55669426F7227B8471DC /* Pods-online-dummy.m */; };
+		2289FFC371F50431DC8493A63CCC69E3 /* SRFormValidator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C406A8C041A624C210BF0BA8BD1C65A5 /* SRFormValidator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B29ABCC6694FBDD4F0CEF483C7522AB /* SRFormValidator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CA05106EFFADF46194381229AC722D /* SRFormValidator-dummy.m */; };
+		3DA8A1A31EE29172BB5BD1DE43C14822 /* Pods-online-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EAD97CD42441EC210C3447AE53543B7 /* Pods-online-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CED2E5D63CEFE03968E197081EA4BD40 /* SRFormValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F1976A9E30A077F758ADA28C4029B1 /* SRFormValidator.swift */; };
+		D64B7142E634A546102A69C0E9AA398F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		F2315E2AD2FF75F0415F54DC87308BE3 /* SRFormValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 889E563027EB50D325513799F277318F /* SRFormValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB8D43712BD7A71D2C6EF693238BB62A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E05E8098A84BF05F5612F6797D88B556 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DA3E5109401917989D86F0EDBE18A2C;
+			remoteInfo = SRFormValidator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		037C4E63B3417EBBB7717D83CD9ABBBB /* Pods-online-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-online-acknowledgements.plist"; sourceTree = "<group>"; };
+		0EAD97CD42441EC210C3447AE53543B7 /* Pods-online-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-online-umbrella.h"; sourceTree = "<group>"; };
+		101104D5C5A813F5CF0D1A3F971F63CD /* SRFormValidator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SRFormValidator.modulemap; sourceTree = "<group>"; };
+		12228510A301707EE053ECBE7309F33F /* SRFormValidator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SRFormValidator.xcconfig; sourceTree = "<group>"; };
+		198AB6257F96446ACCB7F6B095ED7F05 /* Pods-online-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-online-acknowledgements.markdown"; sourceTree = "<group>"; };
+		35CAFC08A936B0E3255FDDD969E621E8 /* Pods-online.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-online.debug.xcconfig"; sourceTree = "<group>"; };
+		54F1976A9E30A077F758ADA28C4029B1 /* SRFormValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SRFormValidator.swift; path = SRFormValidator/SRFormValidator.swift; sourceTree = "<group>"; };
+		5742488F710255DF9995287355040D2E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		582947B041BC819899644231201D4EAC /* SRFormValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SRFormValidator.framework; path = SRFormValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		647CA1196E62167BE03FBAD302A9B2E9 /* Pods-online.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-online.release.xcconfig"; sourceTree = "<group>"; };
+		889E563027EB50D325513799F277318F /* SRFormValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRFormValidator.h; path = SRFormValidator/SRFormValidator.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5CA05106EFFADF46194381229AC722D /* SRFormValidator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SRFormValidator-dummy.m"; sourceTree = "<group>"; };
+		ADC2EDB5B7B20427224205B1C2F2A6B6 /* Pods-online.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-online.modulemap"; sourceTree = "<group>"; };
+		C406A8C041A624C210BF0BA8BD1C65A5 /* SRFormValidator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SRFormValidator-umbrella.h"; sourceTree = "<group>"; };
+		C5235D1E5373B3B1DB996BEFA2604413 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CF0CB1F9C9BE0E8039DBB9F95E12091F /* Pods-online-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-online-frameworks.sh"; sourceTree = "<group>"; };
+		D6E931B1C3F7447B4E7DBDB9B5BE4080 /* SRFormValidator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SRFormValidator-prefix.pch"; sourceTree = "<group>"; };
+		D722D809727B4CEE6E8C095203A9CECE /* Pods-online-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-online-resources.sh"; sourceTree = "<group>"; };
+		D9FD708AEEA0D440D373B1D3E05B2212 /* Pods_online.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_online.framework; path = "Pods-online.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EACB7A1C409E55669426F7227B8471DC /* Pods-online-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-online-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06F4594E3446853BD3DBD9B35F0B2BC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64B7142E634A546102A69C0E9AA398F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E408B83AAA88AAED41F1C574E9ED4E01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8D43712BD7A71D2C6EF693238BB62A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01EAB830643DDC68D5E4420EFDC2ABB3 /* SRFormValidator */ = {
+			isa = PBXGroup;
+			children = (
+				889E563027EB50D325513799F277318F /* SRFormValidator.h */,
+				54F1976A9E30A077F758ADA28C4029B1 /* SRFormValidator.swift */,
+				FAC8DF2EBDFE7BD4FB994011CC1164D2 /* Support Files */,
+			);
+			name = SRFormValidator;
+			path = SRFormValidator;
+			sourceTree = "<group>";
+		};
+		26DA46B8CD060BB0B5A2A49F0DB39662 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E72419B886B684122F4F636BC9C9A6B4 /* Pods-online */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8633E49EAD5B03EC7F1F66BF9071A35F /* Pods */,
+				CD5D4D4CEE573A60553A398726371B52 /* Products */,
+				26DA46B8CD060BB0B5A2A49F0DB39662 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8633E49EAD5B03EC7F1F66BF9071A35F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01EAB830643DDC68D5E4420EFDC2ABB3 /* SRFormValidator */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD5D4D4CEE573A60553A398726371B52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9FD708AEEA0D440D373B1D3E05B2212 /* Pods_online.framework */,
+				582947B041BC819899644231201D4EAC /* SRFormValidator.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E72419B886B684122F4F636BC9C9A6B4 /* Pods-online */ = {
+			isa = PBXGroup;
+			children = (
+				C5235D1E5373B3B1DB996BEFA2604413 /* Info.plist */,
+				ADC2EDB5B7B20427224205B1C2F2A6B6 /* Pods-online.modulemap */,
+				198AB6257F96446ACCB7F6B095ED7F05 /* Pods-online-acknowledgements.markdown */,
+				037C4E63B3417EBBB7717D83CD9ABBBB /* Pods-online-acknowledgements.plist */,
+				EACB7A1C409E55669426F7227B8471DC /* Pods-online-dummy.m */,
+				CF0CB1F9C9BE0E8039DBB9F95E12091F /* Pods-online-frameworks.sh */,
+				D722D809727B4CEE6E8C095203A9CECE /* Pods-online-resources.sh */,
+				0EAD97CD42441EC210C3447AE53543B7 /* Pods-online-umbrella.h */,
+				35CAFC08A936B0E3255FDDD969E621E8 /* Pods-online.debug.xcconfig */,
+				647CA1196E62167BE03FBAD302A9B2E9 /* Pods-online.release.xcconfig */,
+			);
+			name = "Pods-online";
+			path = "Target Support Files/Pods-online";
+			sourceTree = "<group>";
+		};
+		FAC8DF2EBDFE7BD4FB994011CC1164D2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5742488F710255DF9995287355040D2E /* Info.plist */,
+				101104D5C5A813F5CF0D1A3F971F63CD /* SRFormValidator.modulemap */,
+				12228510A301707EE053ECBE7309F33F /* SRFormValidator.xcconfig */,
+				A5CA05106EFFADF46194381229AC722D /* SRFormValidator-dummy.m */,
+				D6E931B1C3F7447B4E7DBDB9B5BE4080 /* SRFormValidator-prefix.pch */,
+				C406A8C041A624C210BF0BA8BD1C65A5 /* SRFormValidator-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SRFormValidator";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		29166FEF1051DE1FE0586D9CE709126B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA8A1A31EE29172BB5BD1DE43C14822 /* Pods-online-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECDED5C54FE85C11EFD153E5BB26EC1C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2289FFC371F50431DC8493A63CCC69E3 /* SRFormValidator-umbrella.h in Headers */,
+				F2315E2AD2FF75F0415F54DC87308BE3 /* SRFormValidator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0DA3E5109401917989D86F0EDBE18A2C /* SRFormValidator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 474AC9673732754426948807F5DD309C /* Build configuration list for PBXNativeTarget "SRFormValidator" */;
+			buildPhases = (
+				ADF78E5ECF9AB4865BCF9B38DE43CB53 /* Sources */,
+				E408B83AAA88AAED41F1C574E9ED4E01 /* Frameworks */,
+				ECDED5C54FE85C11EFD153E5BB26EC1C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SRFormValidator;
+			productName = SRFormValidator;
+			productReference = 582947B041BC819899644231201D4EAC /* SRFormValidator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DC171883AF7CCCCC0D81E9FB52556C69 /* Pods-online */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58452E6EA7AE784668E00E918C580A11 /* Build configuration list for PBXNativeTarget "Pods-online" */;
+			buildPhases = (
+				76E7AE8DEC5ADE545358457B7B964935 /* Sources */,
+				06F4594E3446853BD3DBD9B35F0B2BC0 /* Frameworks */,
+				29166FEF1051DE1FE0586D9CE709126B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13A932E0E071D54189C7CE6DE6D6A857 /* PBXTargetDependency */,
+			);
+			name = "Pods-online";
+			productName = "Pods-online";
+			productReference = D9FD708AEEA0D440D373B1D3E05B2212 /* Pods_online.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CD5D4D4CEE573A60553A398726371B52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC171883AF7CCCCC0D81E9FB52556C69 /* Pods-online */,
+				0DA3E5109401917989D86F0EDBE18A2C /* SRFormValidator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76E7AE8DEC5ADE545358457B7B964935 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F989B1407241059EDEC113DEC6E1F7 /* Pods-online-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF78E5ECF9AB4865BCF9B38DE43CB53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B29ABCC6694FBDD4F0CEF483C7522AB /* SRFormValidator-dummy.m in Sources */,
+				CED2E5D63CEFE03968E197081EA4BD40 /* SRFormValidator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13A932E0E071D54189C7CE6DE6D6A857 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SRFormValidator;
+			target = 0DA3E5109401917989D86F0EDBE18A2C /* SRFormValidator */;
+			targetProxy = E05E8098A84BF05F5612F6797D88B556 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		492BAF8D75C9B845753386F6D8119121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 647CA1196E62167BE03FBAD302A9B2E9 /* Pods-online.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-online/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-online/Pods-online.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_online;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		840D22D528A6BF8672828B3B83CD558A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35CAFC08A936B0E3255FDDD969E621E8 /* Pods-online.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-online/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-online/Pods-online.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_online;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A2EFEEE06C4240390056914156CE7C34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12228510A301707EE053ECBE7309F33F /* SRFormValidator.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SRFormValidator/SRFormValidator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SRFormValidator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SRFormValidator/SRFormValidator.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SRFormValidator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E804FEF8DA200E47DE4A6F971BFC53BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12228510A301707EE053ECBE7309F33F /* SRFormValidator.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SRFormValidator/SRFormValidator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SRFormValidator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SRFormValidator/SRFormValidator.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SRFormValidator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		474AC9673732754426948807F5DD309C /* Build configuration list for PBXNativeTarget "SRFormValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E804FEF8DA200E47DE4A6F971BFC53BB /* Debug */,
+				A2EFEEE06C4240390056914156CE7C34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58452E6EA7AE784668E00E918C580A11 /* Build configuration list for PBXNativeTarget "Pods-online" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840D22D528A6BF8672828B3B83CD558A /* Debug */,
+				492BAF8D75C9B845753386F6D8119121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

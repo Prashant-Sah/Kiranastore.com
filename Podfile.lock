@@ -1,0 +1,12 @@
+PODS:
+  - SRFormValidator (1.0.0)
+
+DEPENDENCIES:
+  - SRFormValidator (~> 1.0)
+
+SPEC CHECKSUMS:
+  SRFormValidator: a74a61a1d15a7e5a0de2527231a78eb75e49e6f2
+
+PODFILE CHECKSUM: 4d4d5d885c4d750ff5e65c530f1603d2631f7b40
+
+COCOAPODS: 1.2.0
