@@ -15,30 +15,36 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var notAMember: UILabel!
     @IBOutlet weak var registerNow: UIButton!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        userNameTextField.text = "Pras"
-        passwordTextField.text = "pras"
+    
+    override func viewDidAppear(_ animated: Bool) {
+        userNameTextField.text =  UserDefaults.standard.object(forKey: "checklogin1") as! String?
+        passwordTextField.text = UserDefaults.standard.object(forKey: "checklogin2") as! String?
         
     }
-    
-    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        //userNameTextField.text = "Pras"
+        //passwordTextField.text = "pras"
+        
+    }
 }
 
 //MARK- button handler
 extension LoginViewController {
     
     @IBAction func done_pressed(_ sender : UIButton) {
-        if( userNameTextField.text != nil && passwordTextField.text != nil )
-        {
-            print(User.userDictionary)
+        
+        if( userNameTextField.text != nil && passwordTextField.text != nil ) {
             
-            for _ in UserInitializer.userArray {
-                if(User.userDictionary[userNameTextField.text!]! == passwordTextField.text!) {
+            if User.userDictionary.keys.contains(userNameTextField.text!) {
+                
+                if(User.userDictionary[userNameTextField.text!]! == passwordTextField.text!){
                     print("Pass match")
+                    // MARK - work of NSNotification and defaults
                     Variables.isLoggedIn = true
-//                    let defaults = UserDefaults.standard
-//                    defaults.set(userNameTextField.text, forKey: Variables.loggedinUser!)
+                    //NotificationCenter.default.post(name: LOGINSUCCESFULLNOTIFICATION, object: self)
+                    UserDefaults.standard.set(userNameTextField.text, forKey: "checklogin1")
+                    UserDefaults.standard.set(passwordTextField.text, forKey: "checklogin2")
                     self.dismiss(animated: true, completion: nil)
                     
                     let appDelegate = UIApplication.shared.delegate! as! AppDelegate
@@ -46,25 +52,26 @@ extension LoginViewController {
                     if let tabVC = self.storyboard?.instantiateViewController(withIdentifier: "TabBarController") as? TabBarController {
                         appDelegate.window?.rootViewController = tabVC
                         appDelegate.window?.makeKeyAndVisible()
-                        
                     }
-                    else{
-                        //error handler
-                    }
-                    
                 }
-                else
-                {
-                    print("failed bhayo")
+                else {
+                    let alertcontroller = UIAlertController(title: "Error", message: "Username or password didnot match", preferredStyle: UIAlertControllerStyle.alert)
+                    alertcontroller.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.destructive, handler: nil))
+                    self.present(alertcontroller, animated: true, completion: nil)
                 }
             }
+                
+            else {
+                let alertcontroller = UIAlertController(title: "Error", message: "You have not been registered yet!!", preferredStyle: UIAlertControllerStyle.alert)
+                alertcontroller.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.destructive, handler: nil))
+                self.present(alertcontroller, animated: true, completion: nil)
+            }
         }
-            
         else{
-            
-            let alertcontroller = UIAlertController(title: "Error", message: "Username or password didnot match", preferredStyle: UIAlertControllerStyle.alert)
+            let alertcontroller = UIAlertController(title: "Error", message: "Username or password fields empty." , preferredStyle: UIAlertControllerStyle.alert)
             alertcontroller.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.destructive, handler: nil))
             self.present(alertcontroller, animated: true, completion: nil)
+            
         }
     }
     
@@ -80,10 +87,11 @@ extension LoginViewController {
         let alertcontroller = UIAlertController(title: "Password Recovery", message: "A reset password has been sent to your email Address. Please check!!", preferredStyle: UIAlertControllerStyle.alert)
         alertcontroller.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.destructive, handler: nil))
         self.present(alertcontroller, animated: true, completion: nil)
-        
     }
-    
 }
+
+
+
 
 extension LoginViewController : UITextFieldDelegate {
     

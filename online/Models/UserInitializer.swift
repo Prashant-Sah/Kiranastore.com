@@ -24,7 +24,8 @@ class UserInitializer{
     "username": "Heuju" as AnyObject, "password": "heuju" as AnyObject,
     "emailAdd": "heuju@gmail.com" as AnyObject]))
     
-        print(UserInitializer.userArray.count)
+    print(UserInitializer.userArray.count)
+        
     }
 
 }

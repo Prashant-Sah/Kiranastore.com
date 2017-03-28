@@ -13,8 +13,8 @@ class ProductsOnWeb {
     var price : Int!
     var productName : String!
     var productImageLink : String!
-    
-    init(ProductDict : Dictionary<String, AnyObject>)
+       
+    init(ProductDict : Dictionary< String, AnyObject> )
     {
         if let  name = ProductDict["productName"] as? String
         {

@@ -16,22 +16,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launvarptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
-//        let defaults = UserDefaults.standard
-//        if ( defaults.string(forKey: Variables.loggedinUser!) == nil)
-//        {
-//            
-//        }
-//        else
-//        {
-//            let storyboard = UIStoryboard(name: "Main", bundle: nil)
-//            if let tabVC = storyboard.instantiateViewController(withIdentifier: "TabBarController") as? TabBarController {
-//                self.window?.rootViewController = tabVC
-//                self.window?.makeKeyAndVisible()
-//                
-//            }
-//        }
-//
-        
+        UserInitializer.shared
+        if (UserDefaults.standard.object(forKey: "checklogin1") != nil){
+            Variables.isLoggedIn = true
+            //NotificationCenter.default.post(name: Notification.Name("LOGINSUCCESFULLNOTIFICATION"), object: self)
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            if let tabVC = storyboard.instantiateViewController(withIdentifier: "TabBarController") as? TabBarController {
+                self.window?.rootViewController = tabVC
+                self.window?.makeKeyAndVisible()
+            }
+        }
+            //Variables.is
+        else {
+            //NotificationCenter.default.post(name: LOGOUTSUCCESFULLNOTIFICATION, object: self)
+        }
         return true
     
     }

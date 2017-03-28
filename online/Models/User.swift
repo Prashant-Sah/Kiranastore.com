@@ -13,8 +13,8 @@ class User {
     
     var name : String?
     var contact : String?
-    var username : String?
-    var password : String?
+    var username : String
+    var password : String
     var emailAdd : String?
     
     static var userDictionary = [String:String]()
@@ -23,12 +23,12 @@ class User {
         
         self.name = withData["name"] as? String
         self.contact = withData["contact"] as? String
-        self.username = withData["username"] as? String
-        self.password = withData["password"] as? String
+        self.username = withData["username"] as! String
+        self.password = withData["password"] as! String
         
         print("name: \(name), password : \(password)")
         
-        User.userDictionary[username!] = password
+        User.userDictionary[username] = password
 //        for  user in UserInitializer.userArray{
 //            User.userDictionary[user.username!] = user.password
     

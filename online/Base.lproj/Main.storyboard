@@ -7,6 +7,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -276,14 +277,22 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Products List" id="0kv-57-g2y">
-                        <barButtonItem key="rightBarButtonItem" title="Login" id="2qc-sW-hS0">
-                            <connections>
-                                <action selector="loginPressed:" destination="Nqd-pn-pfC" id="dRA-b1-wIl"/>
-                            </connections>
-                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem title="Login" id="2qc-sW-hS0">
+                                <connections>
+                                    <action selector="loginPressed:" destination="Nqd-pn-pfC" id="dRA-b1-wIl"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="Logout" id="v1c-y5-cb0">
+                                <connections>
+                                    <action selector="logoutPressed:" destination="Nqd-pn-pfC" id="rgs-Lf-VNO"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
                     </navigationItem>
                     <connections>
                         <outlet property="loginBarButton" destination="2qc-sW-hS0" id="Ryt-9J-ze3"/>
+                        <outlet property="logoutBarButton" destination="v1c-y5-cb0" id="NV5-I5-ohi"/>
                         <outlet property="myCollectionView" destination="5ae-vW-Whe" id="q26-9f-TNw"/>
                     </connections>
                 </viewController>

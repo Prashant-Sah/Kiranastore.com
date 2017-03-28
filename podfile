@@ -1,5 +1,6 @@
 target 'online' do
   use_frameworks!
 	pod 'SRFormValidator', '~>1.0'
+	pod ‘Alamofire’
 end
 

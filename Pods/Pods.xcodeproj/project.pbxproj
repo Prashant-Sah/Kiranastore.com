@@ -7,22 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05F989B1407241059EDEC113DEC6E1F7 /* Pods-online-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EACB7A1C409E55669426F7227B8471DC /* Pods-online-dummy.m */; };
-		2289FFC371F50431DC8493A63CCC69E3 /* SRFormValidator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C406A8C041A624C210BF0BA8BD1C65A5 /* SRFormValidator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3B29ABCC6694FBDD4F0CEF483C7522AB /* SRFormValidator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CA05106EFFADF46194381229AC722D /* SRFormValidator-dummy.m */; };
-		3DA8A1A31EE29172BB5BD1DE43C14822 /* Pods-online-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EAD97CD42441EC210C3447AE53543B7 /* Pods-online-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CED2E5D63CEFE03968E197081EA4BD40 /* SRFormValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F1976A9E30A077F758ADA28C4029B1 /* SRFormValidator.swift */; };
-		D64B7142E634A546102A69C0E9AA398F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		F2315E2AD2FF75F0415F54DC87308BE3 /* SRFormValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 889E563027EB50D325513799F277318F /* SRFormValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB8D43712BD7A71D2C6EF693238BB62A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		0F238A881C8EAD514319F6CD256B1C8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C530180BA00A730635D25DBD0771C24 /* Timeline.swift */; };
+		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A345113026C7B53AE487E5C7D5334CCD /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		340D3C4043B4BED2BAC24A5872377D66 /* Pods-online-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EAD97CD42441EC210C3447AE53543B7 /* Pods-online-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEA7DD893D69EE22BFFECE7B8744C4E /* TaskDelegate.swift */; };
+		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B9BB9C5BB855A8C7154CF9FBBC45D2 /* Request.swift */; };
+		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548741C2D7D31730AC503300B5512392 /* DispatchQueue+Alamofire.swift */; };
+		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4032A427E3BD66F6C9BDA4287C175E /* ServerTrustPolicy.swift */; };
+		6BBA177731A9E85D8FA4FB4E1CC5A8E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F5CAE3DEF4CBC1BBAB338C80F6C3EB /* SessionDelegate.swift */; };
+		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AECEF0529AFA639415D66AAF5C701A /* Result.swift */; };
+		7FC9F4CB6694FFE86197A7CB2F01AA4A /* SRFormValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55F63D13A012A8069E589A40A4B9158 /* SRFormValidator.swift */; };
+		8AE6DEE6B07320322289937178BA8D94 /* SRFormValidator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F13F5E038757F05BAD72195B5EA4876 /* SRFormValidator-dummy.m */; };
+		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD1FAA2FC0F7B444F8301CF63700B6C /* AFError.swift */; };
+		A04BFC558D69E7DBB68023C80A9CFE4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B190C60E5B9699A4FA680B92452B585D /* NetworkReachabilityManager.swift */; };
+		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 834F9E30B0588F9845BB9056497235AB /* Alamofire-dummy.m */; };
+		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E9B4C4E6EF0002968F5C416BB56792 /* SessionManager.swift */; };
+		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1A9094E1B759A369244E41E0B5E9A4 /* MultipartFormData.swift */; };
+		B75135CB5F22C19E5448552BABEACBBD /* Pods-online-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EACB7A1C409E55669426F7227B8471DC /* Pods-online-dummy.m */; };
+		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1B792EB0BDF429EA53790E5EB43AEF /* Validation.swift */; };
+		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE5BD43460491AF40310E46C90C2542 /* ParameterEncoding.swift */; };
+		C9139AAEC69210581BBCD97FFEC4BDCC /* SRFormValidator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B33F108B3A945836616F69264B37ED /* SRFormValidator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793865FC394BAEB0B8C264E1330373B4 /* Response.swift */; };
+		D45C30A06878BBBFD43C01F163CCD09E /* SRFormValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = A3C2583B8FFC324F45722AD1D43E2508 /* SRFormValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1A3695EC159564859B9DA85437A4E4 /* Notifications.swift */; };
+		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475A0F3F3003D6BD3FF9B6A4FE199FFE /* ResponseSerialization.swift */; };
+		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91875858B10F2372A7961CACDBB05E8 /* Alamofire.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E05E8098A84BF05F5612F6797D88B556 /* PBXContainerItemProxy */ = {
+		07ED9CA3D5534B5E31DA08A1F8424D73 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0DA3E5109401917989D86F0EDBE18A2C;
+			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
+			remoteInfo = Alamofire;
+		};
+		56978D6DA2B3C73530BE57E78A206094 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78EFA4B024598360063FB1DE42D52146;
 			remoteInfo = SRFormValidator;
 		};
 /* End PBXContainerItemProxy section */
@@ -30,57 +57,88 @@
 /* Begin PBXFileReference section */
 		037C4E63B3417EBBB7717D83CD9ABBBB /* Pods-online-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-online-acknowledgements.plist"; sourceTree = "<group>"; };
 		0EAD97CD42441EC210C3447AE53543B7 /* Pods-online-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-online-umbrella.h"; sourceTree = "<group>"; };
-		101104D5C5A813F5CF0D1A3F971F63CD /* SRFormValidator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SRFormValidator.modulemap; sourceTree = "<group>"; };
-		12228510A301707EE053ECBE7309F33F /* SRFormValidator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SRFormValidator.xcconfig; sourceTree = "<group>"; };
+		0F5366142BD5513974EF544D526104CF /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
 		198AB6257F96446ACCB7F6B095ED7F05 /* Pods-online-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-online-acknowledgements.markdown"; sourceTree = "<group>"; };
+		22B33F108B3A945836616F69264B37ED /* SRFormValidator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SRFormValidator-umbrella.h"; sourceTree = "<group>"; };
+		25014EA7A85AF34395C2C6739A65A100 /* SRFormValidator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SRFormValidator-prefix.pch"; sourceTree = "<group>"; };
+		2AF3B1BBB08F25315179FFED91416ED8 /* Pods_online.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_online.framework; path = "Pods-online.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C530180BA00A730635D25DBD0771C24 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
 		35CAFC08A936B0E3255FDDD969E621E8 /* Pods-online.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-online.debug.xcconfig"; sourceTree = "<group>"; };
-		54F1976A9E30A077F758ADA28C4029B1 /* SRFormValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SRFormValidator.swift; path = SRFormValidator/SRFormValidator.swift; sourceTree = "<group>"; };
-		5742488F710255DF9995287355040D2E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		582947B041BC819899644231201D4EAC /* SRFormValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SRFormValidator.framework; path = SRFormValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DEA7DD893D69EE22BFFECE7B8744C4E /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		3FD1FAA2FC0F7B444F8301CF63700B6C /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		475A0F3F3003D6BD3FF9B6A4FE199FFE /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		4B1B792EB0BDF429EA53790E5EB43AEF /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		4C4032A427E3BD66F6C9BDA4287C175E /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		4F13F5E038757F05BAD72195B5EA4876 /* SRFormValidator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SRFormValidator-dummy.m"; sourceTree = "<group>"; };
+		51D9273191827AF421D6AB3661A85BC5 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		548741C2D7D31730AC503300B5512392 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		55ED9302C808C9388B172825F6760528 /* SRFormValidator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SRFormValidator.modulemap; sourceTree = "<group>"; };
 		647CA1196E62167BE03FBAD302A9B2E9 /* Pods-online.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-online.release.xcconfig"; sourceTree = "<group>"; };
-		889E563027EB50D325513799F277318F /* SRFormValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRFormValidator.h; path = SRFormValidator/SRFormValidator.h; sourceTree = "<group>"; };
+		793865FC394BAEB0B8C264E1330373B4 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		7DE5BD43460491AF40310E46C90C2542 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		81F5CAE3DEF4CBC1BBAB338C80F6C3EB /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		834F9E30B0588F9845BB9056497235AB /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		8F1A9094E1B759A369244E41E0B5E9A4 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A5CA05106EFFADF46194381229AC722D /* SRFormValidator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SRFormValidator-dummy.m"; sourceTree = "<group>"; };
+		9B1A3695EC159564859B9DA85437A4E4 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		A345113026C7B53AE487E5C7D5334CCD /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		A3C2583B8FFC324F45722AD1D43E2508 /* SRFormValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRFormValidator.h; path = SRFormValidator/SRFormValidator.h; sourceTree = "<group>"; };
+		A91875858B10F2372A7961CACDBB05E8 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		AC524FCA7F1955921B31128FB9A318F9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD88B4C8672A2C6AE92123100B96649B /* SRFormValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SRFormValidator.framework; path = SRFormValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADC2EDB5B7B20427224205B1C2F2A6B6 /* Pods-online.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-online.modulemap"; sourceTree = "<group>"; };
-		C406A8C041A624C210BF0BA8BD1C65A5 /* SRFormValidator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SRFormValidator-umbrella.h"; sourceTree = "<group>"; };
+		B190C60E5B9699A4FA680B92452B585D /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		B55F63D13A012A8069E589A40A4B9158 /* SRFormValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SRFormValidator.swift; path = SRFormValidator/SRFormValidator.swift; sourceTree = "<group>"; };
+		B8AECEF0529AFA639415D66AAF5C701A /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		BFB902881A0A43B00E98F192C47AAAAF /* SRFormValidator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SRFormValidator.xcconfig; sourceTree = "<group>"; };
 		C5235D1E5373B3B1DB996BEFA2604413 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C54542488611D474B7679196EF4599B3 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CF0CB1F9C9BE0E8039DBB9F95E12091F /* Pods-online-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-online-frameworks.sh"; sourceTree = "<group>"; };
-		D6E931B1C3F7447B4E7DBDB9B5BE4080 /* SRFormValidator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SRFormValidator-prefix.pch"; sourceTree = "<group>"; };
 		D722D809727B4CEE6E8C095203A9CECE /* Pods-online-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-online-resources.sh"; sourceTree = "<group>"; };
-		D9FD708AEEA0D440D373B1D3E05B2212 /* Pods_online.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_online.framework; path = "Pods-online.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBE64AF905CB429203B23CC373924A43 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		EACB7A1C409E55669426F7227B8471DC /* Pods-online-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-online-dummy.m"; sourceTree = "<group>"; };
+		EF79BFB46BF6EF058DA49923D07FCCA5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0B9BB9C5BB855A8C7154CF9FBBC45D2 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		F9E9B4C4E6EF0002968F5C416BB56792 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		06F4594E3446853BD3DBD9B35F0B2BC0 /* Frameworks */ = {
+		6EA1A9821132C60AEC052745581D2956 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D64B7142E634A546102A69C0E9AA398F /* Foundation.framework in Frameworks */,
+				6BBA177731A9E85D8FA4FB4E1CC5A8E1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E408B83AAA88AAED41F1C574E9ED4E01 /* Frameworks */ = {
+		99195E4207764744AEC07ECCBCD550EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB8D43712BD7A71D2C6EF693238BB62A /* Foundation.framework in Frameworks */,
+				A04BFC558D69E7DBB68023C80A9CFE4E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C53BFAA4CC6184DA96C88286B9932135 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F238A881C8EAD514319F6CD256B1C8B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01EAB830643DDC68D5E4420EFDC2ABB3 /* SRFormValidator */ = {
+		1858DE8BDAD02F6F1783C88465E2FF48 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				889E563027EB50D325513799F277318F /* SRFormValidator.h */,
-				54F1976A9E30A077F758ADA28C4029B1 /* SRFormValidator.swift */,
-				FAC8DF2EBDFE7BD4FB994011CC1164D2 /* Support Files */,
+				51D9273191827AF421D6AB3661A85BC5 /* Alamofire.framework */,
+				2AF3B1BBB08F25315179FFED91416ED8 /* Pods_online.framework */,
+				AD88B4C8672A2C6AE92123100B96649B /* SRFormValidator.framework */,
 			);
-			name = SRFormValidator;
-			path = SRFormValidator;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		26DA46B8CD060BB0B5A2A49F0DB39662 /* Targets Support Files */ = {
@@ -104,18 +162,10 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				8633E49EAD5B03EC7F1F66BF9071A35F /* Pods */,
-				CD5D4D4CEE573A60553A398726371B52 /* Products */,
+				DE6A78A7DF3F74B377B49C44AF6A5329 /* Pods */,
+				1858DE8BDAD02F6F1783C88465E2FF48 /* Products */,
 				26DA46B8CD060BB0B5A2A49F0DB39662 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8633E49EAD5B03EC7F1F66BF9071A35F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				01EAB830643DDC68D5E4420EFDC2ABB3 /* SRFormValidator */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -126,13 +176,52 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CD5D4D4CEE573A60553A398726371B52 /* Products */ = {
+		C10F4E88462779AB91D305871E77A950 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D9FD708AEEA0D440D373B1D3E05B2212 /* Pods_online.framework */,
-				582947B041BC819899644231201D4EAC /* SRFormValidator.framework */,
+				0F5366142BD5513974EF544D526104CF /* Alamofire.modulemap */,
+				C54542488611D474B7679196EF4599B3 /* Alamofire.xcconfig */,
+				834F9E30B0588F9845BB9056497235AB /* Alamofire-dummy.m */,
+				DBE64AF905CB429203B23CC373924A43 /* Alamofire-prefix.pch */,
+				A345113026C7B53AE487E5C7D5334CCD /* Alamofire-umbrella.h */,
+				EF79BFB46BF6EF058DA49923D07FCCA5 /* Info.plist */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		D84D290DAA2CD9844CA51830242E228C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC524FCA7F1955921B31128FB9A318F9 /* Info.plist */,
+				55ED9302C808C9388B172825F6760528 /* SRFormValidator.modulemap */,
+				BFB902881A0A43B00E98F192C47AAAAF /* SRFormValidator.xcconfig */,
+				4F13F5E038757F05BAD72195B5EA4876 /* SRFormValidator-dummy.m */,
+				25014EA7A85AF34395C2C6739A65A100 /* SRFormValidator-prefix.pch */,
+				22B33F108B3A945836616F69264B37ED /* SRFormValidator-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SRFormValidator";
+			sourceTree = "<group>";
+		};
+		DC6DC4A356DFC3EB3250E81FA7E4AD52 /* SRFormValidator */ = {
+			isa = PBXGroup;
+			children = (
+				A3C2583B8FFC324F45722AD1D43E2508 /* SRFormValidator.h */,
+				B55F63D13A012A8069E589A40A4B9158 /* SRFormValidator.swift */,
+				D84D290DAA2CD9844CA51830242E228C /* Support Files */,
+			);
+			name = SRFormValidator;
+			path = SRFormValidator;
+			sourceTree = "<group>";
+		};
+		DE6A78A7DF3F74B377B49C44AF6A5329 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F89C5794096F11B73077F54441D2FB82 /* Alamofire */,
+				DC6DC4A356DFC3EB3250E81FA7E4AD52 /* SRFormValidator */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		E72419B886B684122F4F636BC9C9A6B4 /* Pods-online */ = {
@@ -153,50 +242,89 @@
 			path = "Target Support Files/Pods-online";
 			sourceTree = "<group>";
 		};
-		FAC8DF2EBDFE7BD4FB994011CC1164D2 /* Support Files */ = {
+		F89C5794096F11B73077F54441D2FB82 /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
-				5742488F710255DF9995287355040D2E /* Info.plist */,
-				101104D5C5A813F5CF0D1A3F971F63CD /* SRFormValidator.modulemap */,
-				12228510A301707EE053ECBE7309F33F /* SRFormValidator.xcconfig */,
-				A5CA05106EFFADF46194381229AC722D /* SRFormValidator-dummy.m */,
-				D6E931B1C3F7447B4E7DBDB9B5BE4080 /* SRFormValidator-prefix.pch */,
-				C406A8C041A624C210BF0BA8BD1C65A5 /* SRFormValidator-umbrella.h */,
+				3FD1FAA2FC0F7B444F8301CF63700B6C /* AFError.swift */,
+				A91875858B10F2372A7961CACDBB05E8 /* Alamofire.swift */,
+				548741C2D7D31730AC503300B5512392 /* DispatchQueue+Alamofire.swift */,
+				8F1A9094E1B759A369244E41E0B5E9A4 /* MultipartFormData.swift */,
+				B190C60E5B9699A4FA680B92452B585D /* NetworkReachabilityManager.swift */,
+				9B1A3695EC159564859B9DA85437A4E4 /* Notifications.swift */,
+				7DE5BD43460491AF40310E46C90C2542 /* ParameterEncoding.swift */,
+				F0B9BB9C5BB855A8C7154CF9FBBC45D2 /* Request.swift */,
+				793865FC394BAEB0B8C264E1330373B4 /* Response.swift */,
+				475A0F3F3003D6BD3FF9B6A4FE199FFE /* ResponseSerialization.swift */,
+				B8AECEF0529AFA639415D66AAF5C701A /* Result.swift */,
+				4C4032A427E3BD66F6C9BDA4287C175E /* ServerTrustPolicy.swift */,
+				81F5CAE3DEF4CBC1BBAB338C80F6C3EB /* SessionDelegate.swift */,
+				F9E9B4C4E6EF0002968F5C416BB56792 /* SessionManager.swift */,
+				3DEA7DD893D69EE22BFFECE7B8744C4E /* TaskDelegate.swift */,
+				2C530180BA00A730635D25DBD0771C24 /* Timeline.swift */,
+				4B1B792EB0BDF429EA53790E5EB43AEF /* Validation.swift */,
+				C10F4E88462779AB91D305871E77A950 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SRFormValidator";
+			name = Alamofire;
+			path = Alamofire;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		29166FEF1051DE1FE0586D9CE709126B /* Headers */ = {
+		B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DA8A1A31EE29172BB5BD1DE43C14822 /* Pods-online-umbrella.h in Headers */,
+				1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ECDED5C54FE85C11EFD153E5BB26EC1C /* Headers */ = {
+		DB5040859720F33AA637D9BD3897CA6D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2289FFC371F50431DC8493A63CCC69E3 /* SRFormValidator-umbrella.h in Headers */,
-				F2315E2AD2FF75F0415F54DC87308BE3 /* SRFormValidator.h in Headers */,
+				C9139AAEC69210581BBCD97FFEC4BDCC /* SRFormValidator-umbrella.h in Headers */,
+				D45C30A06878BBBFD43C01F163CCD09E /* SRFormValidator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5A4E1032EF2E9820FE9599E488A9B6C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				340D3C4043B4BED2BAC24A5872377D66 /* Pods-online-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0DA3E5109401917989D86F0EDBE18A2C /* SRFormValidator */ = {
+		6A8AF86BB1B237AF48248A088ADFDA52 /* Pods-online */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 474AC9673732754426948807F5DD309C /* Build configuration list for PBXNativeTarget "SRFormValidator" */;
+			buildConfigurationList = 59CF4D0EDD630A1F323E9087C70D5F55 /* Build configuration list for PBXNativeTarget "Pods-online" */;
 			buildPhases = (
-				ADF78E5ECF9AB4865BCF9B38DE43CB53 /* Sources */,
-				E408B83AAA88AAED41F1C574E9ED4E01 /* Frameworks */,
-				ECDED5C54FE85C11EFD153E5BB26EC1C /* Headers */,
+				DF789EF09B37AAB019F44B86BDC006D5 /* Sources */,
+				C53BFAA4CC6184DA96C88286B9932135 /* Frameworks */,
+				E5A4E1032EF2E9820FE9599E488A9B6C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78C80EC709864F52CF813D83BA272D7A /* PBXTargetDependency */,
+				E376F64536F4BE612B219D538179A9AC /* PBXTargetDependency */,
+			);
+			name = "Pods-online";
+			productName = "Pods-online";
+			productReference = 2AF3B1BBB08F25315179FFED91416ED8 /* Pods_online.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		78EFA4B024598360063FB1DE42D52146 /* SRFormValidator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F494329BAFDF2332928E6F82F66DE928 /* Build configuration list for PBXNativeTarget "SRFormValidator" */;
+			buildPhases = (
+				2BF1E8774FDC1DA3C4735689005BEDBD /* Sources */,
+				6EA1A9821132C60AEC052745581D2956 /* Frameworks */,
+				DB5040859720F33AA637D9BD3897CA6D /* Headers */,
 			);
 			buildRules = (
 			);
@@ -204,25 +332,24 @@
 			);
 			name = SRFormValidator;
 			productName = SRFormValidator;
-			productReference = 582947B041BC819899644231201D4EAC /* SRFormValidator.framework */;
+			productReference = AD88B4C8672A2C6AE92123100B96649B /* SRFormValidator.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DC171883AF7CCCCC0D81E9FB52556C69 /* Pods-online */ = {
+		88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58452E6EA7AE784668E00E918C580A11 /* Build configuration list for PBXNativeTarget "Pods-online" */;
+			buildConfigurationList = 419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */;
 			buildPhases = (
-				76E7AE8DEC5ADE545358457B7B964935 /* Sources */,
-				06F4594E3446853BD3DBD9B35F0B2BC0 /* Frameworks */,
-				29166FEF1051DE1FE0586D9CE709126B /* Headers */,
+				32B9974868188C4803318E36329C87FE /* Sources */,
+				99195E4207764744AEC07ECCBCD550EB /* Frameworks */,
+				B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				13A932E0E071D54189C7CE6DE6D6A857 /* PBXTargetDependency */,
 			);
-			name = "Pods-online";
-			productName = "Pods-online";
-			productReference = D9FD708AEEA0D440D373B1D3E05B2212 /* Pods_online.framework */;
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 51D9273191827AF421D6AB3661A85BC5 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -242,49 +369,81 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = CD5D4D4CEE573A60553A398726371B52 /* Products */;
+			productRefGroup = 1858DE8BDAD02F6F1783C88465E2FF48 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DC171883AF7CCCCC0D81E9FB52556C69 /* Pods-online */,
-				0DA3E5109401917989D86F0EDBE18A2C /* SRFormValidator */,
+				88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */,
+				6A8AF86BB1B237AF48248A088ADFDA52 /* Pods-online */,
+				78EFA4B024598360063FB1DE42D52146 /* SRFormValidator */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		76E7AE8DEC5ADE545358457B7B964935 /* Sources */ = {
+		2BF1E8774FDC1DA3C4735689005BEDBD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05F989B1407241059EDEC113DEC6E1F7 /* Pods-online-dummy.m in Sources */,
+				8AE6DEE6B07320322289937178BA8D94 /* SRFormValidator-dummy.m in Sources */,
+				7FC9F4CB6694FFE86197A7CB2F01AA4A /* SRFormValidator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ADF78E5ECF9AB4865BCF9B38DE43CB53 /* Sources */ = {
+		32B9974868188C4803318E36329C87FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B29ABCC6694FBDD4F0CEF483C7522AB /* SRFormValidator-dummy.m in Sources */,
-				CED2E5D63CEFE03968E197081EA4BD40 /* SRFormValidator.swift in Sources */,
+				9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */,
+				A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */,
+				F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */,
+				61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */,
+				B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */,
+				A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */,
+				EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */,
+				BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */,
+				5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */,
+				CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */,
+				F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */,
+				7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */,
+				62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */,
+				7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */,
+				AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */,
+				3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */,
+				10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */,
+				BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF789EF09B37AAB019F44B86BDC006D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B75135CB5F22C19E5448552BABEACBBD /* Pods-online-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		13A932E0E071D54189C7CE6DE6D6A857 /* PBXTargetDependency */ = {
+		78C80EC709864F52CF813D83BA272D7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
+			targetProxy = 07ED9CA3D5534B5E31DA08A1F8424D73 /* PBXContainerItemProxy */;
+		};
+		E376F64536F4BE612B219D538179A9AC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SRFormValidator;
-			target = 0DA3E5109401917989D86F0EDBE18A2C /* SRFormValidator */;
-			targetProxy = E05E8098A84BF05F5612F6797D88B556 /* PBXContainerItemProxy */;
+			target = 78EFA4B024598360063FB1DE42D52146 /* SRFormValidator */;
+			targetProxy = 56978D6DA2B3C73530BE57E78A206094 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		492BAF8D75C9B845753386F6D8119121 /* Release */ = {
+		0A29B6F510198AF64EFD762EF6FA97A5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 647CA1196E62167BE03FBAD302A9B2E9 /* Pods-online.release.xcconfig */;
+			baseConfigurationReference = C54542488611D474B7679196EF4599B3 /* Alamofire.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -297,13 +456,110 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1BFF8620245C0755B5A2FE2EA5EF72DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFB902881A0A43B00E98F192C47AAAAF /* SRFormValidator.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SRFormValidator/SRFormValidator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SRFormValidator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SRFormValidator/SRFormValidator.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SRFormValidator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		38979A591CEB21C5CE335C10FFD4DDFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFB902881A0A43B00E98F192C47AAAAF /* SRFormValidator.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SRFormValidator/SRFormValidator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SRFormValidator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SRFormValidator/SRFormValidator.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SRFormValidator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		664C4F30D8337A5F2C4C3897BC252120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35CAFC08A936B0E3255FDDD969E621E8 /* Pods-online.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-online/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-online/Pods-online.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -311,11 +567,12 @@
 				PRODUCT_NAME = Pods_online;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		673254EEAF0B5BF4596080C749645884 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -357,45 +614,9 @@
 			};
 			name = Release;
 		};
-		840D22D528A6BF8672828B3B83CD558A /* Debug */ = {
+		DFB24D5F8664F3669A6411301F86ABE2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35CAFC08A936B0E3255FDDD969E621E8 /* Pods-online.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-online/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-online/Pods-online.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_online;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A2EFEEE06C4240390056914156CE7C34 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12228510A301707EE053ECBE7309F33F /* SRFormValidator.xcconfig */;
+			baseConfigurationReference = 647CA1196E62167BE03FBAD302A9B2E9 /* Pods-online.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -408,17 +629,20 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SRFormValidator/SRFormValidator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SRFormValidator/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-online/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SRFormValidator/SRFormValidator.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-online/Pods-online.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SRFormValidator;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_online;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -469,9 +693,9 @@
 			};
 			name = Debug;
 		};
-		E804FEF8DA200E47DE4A6F971BFC53BB /* Debug */ = {
+		F383079BFBF927813EA3613CFB679FDE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12228510A301707EE053ECBE7309F33F /* SRFormValidator.xcconfig */;
+			baseConfigurationReference = C54542488611D474B7679196EF4599B3 /* Alamofire.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -484,14 +708,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SRFormValidator/SRFormValidator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SRFormValidator/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SRFormValidator/SRFormValidator.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SRFormValidator;
+				PRODUCT_NAME = Alamofire;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -514,20 +738,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		474AC9673732754426948807F5DD309C /* Build configuration list for PBXNativeTarget "SRFormValidator" */ = {
+		419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E804FEF8DA200E47DE4A6F971BFC53BB /* Debug */,
-				A2EFEEE06C4240390056914156CE7C34 /* Release */,
+				F383079BFBF927813EA3613CFB679FDE /* Debug */,
+				0A29B6F510198AF64EFD762EF6FA97A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58452E6EA7AE784668E00E918C580A11 /* Build configuration list for PBXNativeTarget "Pods-online" */ = {
+		59CF4D0EDD630A1F323E9087C70D5F55 /* Build configuration list for PBXNativeTarget "Pods-online" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				840D22D528A6BF8672828B3B83CD558A /* Debug */,
-				492BAF8D75C9B845753386F6D8119121 /* Release */,
+				664C4F30D8337A5F2C4C3897BC252120 /* Debug */,
+				DFB24D5F8664F3669A6411301F86ABE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F494329BAFDF2332928E6F82F66DE928 /* Build configuration list for PBXNativeTarget "SRFormValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38979A591CEB21C5CE335C10FFD4DDFD /* Debug */,
+				1BFF8620245C0755B5A2FE2EA5EF72DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

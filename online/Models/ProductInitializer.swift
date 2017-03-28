@@ -13,6 +13,8 @@ class ProductInitializer {
     
     var prodList = [Products]()
     
+    var products = [ProductsOnWeb]()
+    
     static let prodShared = ProductInitializer()
     
     init()

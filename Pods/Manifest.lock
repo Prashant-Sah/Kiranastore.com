@@ -1,12 +1,15 @@
 PODS:
+  - Alamofire (4.4.0)
   - SRFormValidator (1.0.0)
 
 DEPENDENCIES:
+  - Alamofire
   - SRFormValidator (~> 1.0)
 
 SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
   SRFormValidator: a74a61a1d15a7e5a0de2527231a78eb75e49e6f2
 
-PODFILE CHECKSUM: 4d4d5d885c4d750ff5e65c530f1603d2631f7b40
+PODFILE CHECKSUM: f92124b7edc22daf5c9a2abc61c9aebfaae74499
 
 COCOAPODS: 1.2.0
